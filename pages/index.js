@@ -1,8 +1,13 @@
 import { useContext, useRef, useMemo } from 'react';
 
 //local imports
+import { Layout } from "../components/Layout/Layout";
+
+//global state imports
 import { useStateContextConsumer } from '../global-state-utils/globalStateContext';
 import { ACTION_CONSTANTS } from '../global-state-utils/stateActionConstants';
+
+
 
 const generateNewId = () => new Date().getTime().toString() + Math.ceil(Math.random() * 10000);
 
@@ -26,7 +31,7 @@ const AllTodos = () => {
   }
 
   return (
-    <>
+    <Layout>
       Add Todos
       <form onSubmit={onAddTodoHandler}>
         <label htmlFor="todoName">Todo Name</label>
@@ -44,7 +49,7 @@ const AllTodos = () => {
           )
         })}
       </ul>
-    </>
+    </Layout>
   )
 }
 

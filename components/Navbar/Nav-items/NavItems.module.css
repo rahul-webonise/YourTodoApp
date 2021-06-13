@@ -1,0 +1,17 @@
+.NavItems {
+    display: flex;
+    padding: 0;
+}
+
+.LiTag {
+    list-style: none;
+    margin: 0 1rem;
+    color: blanchedalmond;
+    font-weight: bold;
+    height: 1.5rem;
+}
+
+.LiTag:hover {
+    border-bottom: 2px solid #ffc062;
+    color: #ffc062;
+}

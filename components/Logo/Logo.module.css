@@ -1,0 +1,9 @@
+.LogoContainer {
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.Logo {
+    border-radius: 50%;
+}
