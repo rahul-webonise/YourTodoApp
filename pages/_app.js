@@ -1,7 +1,15 @@
-import '../styles/globals.css'
+import React from 'react';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+//local imports
+import '../styles/globals.css';
+
+import { StateContextProvider } from '../global-state-utils/globalStateContext'
+
+
+export default function MyApp({ Component, pageProps }) {
+  return (
+    <StateContextProvider>
+      <Component {...pageProps} />
+    </StateContextProvider>
+  )
 }
-
-export default MyApp

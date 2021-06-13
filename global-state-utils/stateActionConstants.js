@@ -1,0 +1,4 @@
+export const ACTION_CONSTANTS = {
+    ADD_TODOS: 'ADD_TODOS',
+    DELETE_TODOS: 'DELETE_TODOS'
+}
