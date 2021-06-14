@@ -13,8 +13,8 @@ export const NavItems = () => {
                 </Link>
             </li>
             <li className={classes.LiTag}>
-                <Link href="#">
-                    <a>Favourite</a>
+                <Link href="/completed">
+                    <a>Finished</a>
                 </Link>
             </li>
         </ul>
