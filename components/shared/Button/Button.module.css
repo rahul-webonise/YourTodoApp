@@ -1,0 +1,18 @@
+.Button {
+    width: 1.8rem;
+    height: 1.8rem;
+    max-height: 1.8rem;
+    padding: 5px;
+    background-color: #303030;
+    border-radius: 50%;
+    color: wheat;
+    border: 1px solid #f52121;
+    box-shadow: 1px 1px 3px #f52121;
+    margin: 0.2rem;
+    font-weight: bolder;
+}
+
+.Button:hover {
+    box-shadow: none;
+    background-color: #3b3b3b;
+}
